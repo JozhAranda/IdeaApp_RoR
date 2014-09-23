@@ -1,0 +1,16 @@
+<div class="row well well-small shows">
+    <div class="span3 division-right">
+        <p><b>Title: </b><%= @idea.name %></p>
+        <p><b>Description: </b><%= @idea.description %></p>
+    </div>
+    <div class="span1 division-right">      
+        <p>
+            <%= link_to 'Edit', edit_idea_path(@idea) %> <br>
+            <%= link_to 'Destroy', @idea, method: :delete, data: { confirm: 'Are you sure?' } %> <br>
+            <%= link_to 'Back', ideas_path %>
+        </p>
+    </div>
+    <div class="span9">
+        <%= image_tag(@idea.picture_url, :width => "100%") if @idea.picture.present? %>
+    </div>
+</div>

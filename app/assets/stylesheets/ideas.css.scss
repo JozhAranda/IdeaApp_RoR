@@ -1,0 +1,29 @@
+// Place all the styles related to the ideas controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.ideas {
+	text-align: center;
+	border: 0 !important;
+	border: 1px solid #ddd !important;
+	border-radius: 5px !important;
+	background-color: #fdfdfd !important;
+}
+
+.adds {
+	background-color: #fdfdfd !important;
+	border: 1px solid #ddd !important;
+	border-radius: 5px !important;
+	padding: 7px;
+}
+
+.shows {
+	margin: 0;
+	background-color: #fdfdfd !important;
+	border: 1px solid #ddd !important;
+	border-radius: 5px !important;
+}
+
+.division-right {
+	border-right: 1px solid #ddd;
+}
